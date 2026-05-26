@@ -205,7 +205,7 @@
                     Ramblings ➡️
                 </h4>
                 <ol>
-                    
+                   <li><a href="#blindcode">BlindCode</a></li> 
                     <li>
                       <a href="#disciplined-llm-use">
                        Disciplined LLM Use
@@ -327,6 +327,12 @@
                     </li>
                 </ol>
             </nav>
+            
+            <article id="blindcode">
+              <h2>BlindCode</h2>
+              <p>Posted May 25th, 2026</p>
+              <p>Just pushed a proof of concept called <a href="https://github.com/kolesparks/blindcode" rel="noopener">BlindCode</a> to github.</p>
+              <p>It allows me to work on projects on-the-go without needing to look at a screen. A server runs on my laptop that issues temporary credentails for the OpenAI realtime api and it handles incoming tool calls. The frontend establishes a direct webrtc connection with OpenAI and forwards tool calls to the server running on my laptop. The realtime api streams in my voice, transcribes, interprets, streams back advanced voice, and sends tool calls over the data channel. It isn't the most optimal workflow, but I think there's something here, it just needs some iteration.
             <article id="disciplined-llm-use">
               <h2>Disciplined LLM Use</h2>
               <p>Posted May 9th, 2026</p>
