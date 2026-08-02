@@ -205,6 +205,8 @@
                     Ramblings ➡️
                 </h4>
                 <ol>
+<li><a href="#dsl-development">DSL Development</a></li>
+                    <li>
                    <li><a href="#blindcode">BlindCode</a></li> 
                     <li>
                       <a href="#disciplined-llm-use">
@@ -327,12 +329,19 @@
                     </li>
                 </ol>
             </nav>
+
+
+            <article id="dsl-development">
+             <h2>DSL Development</h2>
+             <p>Posted Aug 2nd, 2026</p>
+             <p>Domain Specific Language might be the best use of AI in software development. High level general purpose languages (e.g. C++, Java, Python) multiply productivity by hundreds maybe thousands thanks to compilers/interpers. Some have said that AI agents are the next level of abstraction in programming. I disagree. High level general purpose languages have remained at about the same level of abstraction for several decades now. Why? Because in order to be more abstract, languages must become more specialized, and not general purpose. There's still debate and refinement over specific approaches, but we've mostly solved general purpose language abstraction. To move higher we must build specialized languages. Specialization is extremely powerful. We have many languages for specific problems (e.g. SQL, CSS, Regex). The reason we don't build more Domain Specific Languages is it is hard and time consuming. Designing the language takes both technical and domain experience, creativity, and discipline. Developing and optimizing compilers/interpreters is extremely time consuming and difficult to do right. But what if we have AI that can help us where we get stuck and where we couldn't possible do it ourselves in a reasonable timeframe or budget? Now, maybe, developing a DSL for your problem isn't so ambitious. Perhaps agents improve developer productivity by 2x,5x,10x. But if compilers improve productivity by 100-1000x - we should be using most of our tokens on compilers.</p></article>
             
             <article id="blindcode">
               <h2>BlindCode</h2>
               <p>Posted May 25th, 2026</p>
               <p>Just pushed a proof of concept called <a href="https://github.com/kolesparks/blindcode" rel="noopener">BlindCode</a> to github.</p>
-              <p>It allows me to work on projects on-the-go without needing to look at a screen. A server runs on my laptop that issues temporary credentails for the OpenAI realtime api and it handles incoming tool calls. The frontend establishes a direct webrtc connection with OpenAI and forwards tool calls to the server running on my laptop. The realtime api streams in my voice, transcribes, interprets, streams back advanced voice, and sends tool calls over the data channel. It isn't the most optimal workflow, but I think there's something here, it just needs some iteration.
+              <p>It allows me to work on projects on-the-go without needing to look at a screen. A server runs on my laptop that issues temporary credentails for the OpenAI realtime api and it handles incoming tool calls. The frontend establishes a direct webrtc connection with OpenAI and forwards tool calls to the server running on my laptop. The realtime api streams in my voice, transcribes, interprets, streams back advanced voice, and sends tool calls over the data channel. It isn't the most optimal workflow, but I think there's something here, it just needs some iteration.</p>
+</article>
             <article id="disciplined-llm-use">
               <h2>Disciplined LLM Use</h2>
               <p>Posted May 9th, 2026</p>
